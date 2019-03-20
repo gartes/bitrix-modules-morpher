@@ -1,0 +1,12 @@
+DROP TABLE IF EXISTS `morpher`;
+
+CREATE TABLE `morpher` (
+  `ID` int(11) NOT NULL AUTO_INCREMENT,
+  `NAME` varchar(200) NOT NULL, 
+  `NAME_FORM1` varchar(200) NOT NULL,  
+  `NAME_FORM2` varchar(200) NOT NULL,  
+  `NAME_FORM3` varchar(200) NOT NULL,  
+  `NAME_FORM4` varchar(200) NOT NULL,  
+  `NAME_FORM5` varchar(200) NOT NULL,   
+  PRIMARY KEY (`ID`)
+) ENGINE=InnoDB AUTO_INCREMENT=0 DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci
